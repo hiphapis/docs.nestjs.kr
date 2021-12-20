@@ -34,7 +34,6 @@ uploadFile(file) {
 
 > info **힌트** `FileInterceptor()` 데코레이터는 `@nestjs/platform-express` 패키지에서 내보냅니다.  `@UploadedFile()` 데코레이터는 `@nestjs/common`에서 내보내집니다.
 
-The `FileInterceptor()` decorator takes two arguments:
 `FileInterceptor()` 데코레이터는 두개의 인수를 받습니다.
 
 - `fieldName`: 파일이 있는 HTML 양식에서 필드 이름을 제공하는 문자열
